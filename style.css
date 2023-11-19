@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(7, 7, 44);
+    color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 28px;
+    box-shadow:  13px 13px 10px #7b7b7b,
+             -13px -13px 10px #ffffff;
+}
+
+#box1,#box2,#box3{
+    width: 200px;
+    margin: 20px;
+}
+#box4{
+    width: 350px;
+    margin: 20px;
+}
+#social{
+    display: flex;
+    margin-top: 20px;
+}
+#social i{
+    font-size: 27px;
+    padding: 5px 10px;
+}
+ul li{
+    padding: 8px;
+}
+div>h3,div>ul>h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+div>q{
+    line-height: 30px;
+}
+div>input{
+    background-color: transparent;
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+input::placeholder{
+    color: white;
+    font-weight: 700;
+}
+button{
+    padding: 10px;
+}
+.fa-facebook-f:hover{
+    color: blue;
+}
+.fa-github:hover{
+    color: rgb(59, 42, 212);
+}
+.fa-linkedin:hover{
+    color: blue;
+}
+.fa-twitter:hover{
+    color: blue;
+}
